@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 4rem;
+    padding: 10px;
+    display: flex;
+    align-items: center;    
+    justify-content: flex-end;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap:40px;
+}
+li{
+    display: inline;
+
+}
+
+@media  screen and (min-width:300px) and (max-width:786px) {
+        .navbar{
+            height: auto;
+            justify-content: center;
+        }
+        ul{
+            flex-direction: column;
+            gap:10px
+        }
+}
