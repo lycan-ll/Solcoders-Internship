@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.border {
+  border: 10px solid rgb(235, 229, 229);
+  border-radius: 30px;
+  overflow: hidden;
+  width: 20rem;
+}
+.border p {
+  padding: 1rem;
+}
+.border footer {
+  background-color: #74d690;
+  padding: 10px;
+  height: 50px;
+}
+img {
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.5rem;
+}
+footer p {
+  margin-top: 0.1rem;
+  color: white;
+}
+.container {
+  transform: rotate(-5deg);
+}
+.container:hover {
+  transform: rotate(0deg);
+}
+.container:hover img {
+  transform: scale(1.5);
+}
