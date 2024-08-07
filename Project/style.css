@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+.navbar {
+  background-color: #c5984b;
+  height: 4rem;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.navbar li {
+  margin: 20px;
+  list-style: none;
+}
+.navbar li a {
+  list-style: none;
+  margin: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: large;
+  color: white;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: yellow;
+}
+section {
+  background-color: #cfb588;
+  height: auto;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  width: 50rem;
+}
+
+.photo {
+  position: relative;
+  margin-left: 4rem;
+  margin-top: 5rem;
+}
+
+.frame-container {
+  position: relative;
+  width: 20rem;
+}
+
+#frame {
+  width: 100%;
+}
+#anime:hover {
+  transform: scale(1.5);
+  transition: 0.5s;
+}
+#anime {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+button {
+  background-color: black;
+  color: white;
+  height: 3rem;
+  margin-top: 2rem;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 2px;
+  width: 6rem;
+}
+#viewbtn {
+  margin-left: 2rem;
+}
+.aboutme {
+  background-color: black;
+  color: white;
+  padding: 2rem;
+}
