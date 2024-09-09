@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Description</title>
+    <link rel="icon" href="store_869636.png" type="image/x-icon" />
+    <link rel="stylesheet" href="desstyle.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="test1.js" defer></script>
+  </head>
+  <body>
+    <div id="preloader">
+      <div class="loader"></div>
+    </div>
+    <h1>Description of Product</h1>
+    <div class="container">
+      <!-- Product details will be injected here -->
+    </div>
+    <div class="reviews-container">
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      <h3>Reviews</h3>
+      <div id="reviews">
+        <!-- Reviews will be injected here -->
+      </div>
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <h3>Write A Review</h3>
+      <form class="review-form">
+        <label for="fname">Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Your name"
+        /><br />
+
+        <div class="stars">
+          <i class="fa fa-star star" data-index="0"></i>
+          <i class="fa fa-star star" data-index="1"></i>
+          <i class="fa fa-star star" data-index="2"></i>
+          <i class="fa fa-star star" data-index="3"></i>
+          <i class="fa fa-star star" data-index="4"></i>
+
+          <br />
+          <br />
+        </div>
+        <label for="review">Review</label>
+        <textarea
+          id="review"
+          name="review"
+          placeholder="Write your review here"
+        ></textarea
+        ><br />
+
+        <button type="submit" class="submit-btn">Submit Review</button>
+      </form>
+    </div>
+  </body>
+</html>
